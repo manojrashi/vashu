@@ -1,0 +1,51 @@
+<?php session_start();
+include("../include/config.php");
+include("../include/functions.php"); 
+validate_admin();
+$arr =$_POST['ids'];
+//print_r($_REQUEST);
+
+$Submit =$_POST['what'];
+
+if(count($arr)>0){
+	$str_rest_refs=implode(",",$arr);
+	if($Submit=='Delete')
+	{
+	    $query=$obj->query("select * from $tbl_photo where id in ($str_rest_refs)");
+		while($resultPhoto=$obj->fetchNextObject($query)){
+				@unlink("../upload_images/model/".$resultPhoto->photo);
+				@unlink("../upload_images/model/thumb/".$resultPhoto->photo);
+				@unlink("../upload_images/model/tiny/".$resultPhoto->photo);
+	     }
+	    $sql="delete from $tbl_photo where id in ($str_rest_refs)"; 
+		$obj->query($sql);
+		$sess_msg='Selected record(s) deleted successfully';
+		$_SESSION['sess_msg']=$sess_msg;
+    }
+	elseif($Submit=='Activate')
+	{	
+		$sql="update $tbl_photo set status=1 where id in ($str_rest_refs)";
+		$obj->query($sql);
+		$sess_msg='Selected record(s) activated successfully';
+		$_SESSION['sess_msg']=$sess_msg;
+	}
+	elseif($Submit=='Deactivate')
+	{		
+		 $sql="update $tbl_photo set status=0 where id in ($str_rest_refs)";
+		$obj->query($sql);
+		$sess_msg='Selected record(s) deactivated successfully';
+		$_SESSION['sess_msg']=$sess_msg;
+	}
+		
+	}
+	
+else{
+	$sess_msg="Please select check box";
+	$_SESSION['sess_msg']=$sess_msg;
+	header("location: ".$_SERVER['HTTP_REFERER']);
+	exit();
+	}
+	header("location: photo-list.php?model_id=".$_REQUEST['model_id']);
+	exit();
+	
+?>

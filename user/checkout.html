@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>checkout</title>
+<link href="css/style.css" rel="stylesheet">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+<section id="default">
+  <div class="container">
+    <div class="col-xs-12 col-sm-8 background">
+      <div class="col-xs-12 col-sm-12 border">
+        <div class="col-xs-12 col-sm-8">
+          <div class="chatcard">
+            <h3>My Cart (3)</h3>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-4">
+          <div class="pinchange">
+            <ul>
+              <li><i class="fa fa-map-marker" aria-hidden="true"></i> 201301</li>
+              <li><a href="#"> change</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-12 checks">
+        <div class="col-xs-12 col-sm-2">
+          <div class="img"> <img src="images/sumsung.jpeg"></div>
+          <div class="plus-min">
+          <span class="min button">-</span>
+<input type="text" name="qty" id="qty" maxlength="12"/>
+<span class="plus button">+</span>
+</div>
+        </div>
+        <div class="col-xs-12 col-sm-6">
+          <div class="pinchange">
+            <ul>
+              <li><a href="#">Samsung Guru FM Plus SM-B110E/D</a></li>
+            </ul>
+            <p>Dark Blue</p>
+            <p>Seller: IshwarSalesCorporation</p>
+            <h2><i class="fa fa-inr" aria-hidden="true"></i> 1,430 <a href="#">2 Offers Available</a></h2>
+            <ul class="secound">
+              <li><a href="#">Save For Later</a></li>
+              <li><a href="#">Remove</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-4 right">
+          <h2>Delivery in 3-4 days | <i class="fa fa-inr" aria-hidden="true"></i>30</h2>
+          <p>10 Days Replacement Policy</p>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-12 checks">
+        <div class="col-xs-12 col-sm-2">
+          <div class="img"> <img src="images/bage.jpeg"></div>
+          <div class="plus-min">
+          <span class="min button">-</span>
+<input type="text" name="qty" id="qty" maxlength="12"/>
+<span class="plus button">+</span>
+</div>
+        </div>
+        <div class="col-xs-12 col-sm-6">
+          <div class="pinchange">
+            <ul>
+              <li><a href="#">Samsung Guru FM Plus SM-B110E/D</a></li>
+            </ul>
+            <p>Dark Blue</p>
+            <p>Seller: IshwarSalesCorporation</p>
+            <h2><i class="fa fa-inr" aria-hidden="true"></i> 1,430 <a href="#">2 Offers Available</a>	</h2>
+            <ul class="secound">
+              <li><a href="#">Save For Later</a></li>
+              <li><a href="#">Remove</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-4 right">
+          <h2>Delivery in 3-4 days | <i class="fa fa-inr" aria-hidden="true"></i>30</h2>
+          <p>10 Days Replacement Policy</p>
+        </div>
+      </div>
+      <div class="shopping">
+      <ul>
+      <li><a href="#">Continue shopping</a></li>
+      </ul>
+      </div>
+    </div>
+
+    
+    
+    
+    <div class="col-xs-12 col-sm-4">
+    <div class="background">     
+      <div class="CardSummary">
+      <div class="details">
+        <h2>Price details</h2>
+      </div>
+        <div class="CardBlock1">
+          <h4>
+          Price (2 items)<span><i class="fa fa-rupee"></i> <span>4,664</span></span> </div>
+          <div class="CardBlock1">
+          <h4>
+          Price (2 items)<span><i class="fa fa-rupee"></i> <span>4,664</span></span> </div>
+        <div class="CardBlock">
+          <h4>Discount<span> <span>5%</span></span></h4>
+          <input type="hidden" name="" id="total" value="469">
+        </div>
+        <div class="CardBlock1">
+          <h4>Amount Payable<span><i class="fa fa-rupee"></i> <span>4,724</span></span></h4>
+        </div>
+        <div class="saving">
+          <h2>Your Total Savings on this order <span><i class="fa fa-rupee"></i></span>3,566</h2>
+        </div>
+       
+      </div>
+      <button>Place Order</button>
+    </div>
+    
+  </div>
+    </div>
+  </section>
+
+
+<script src="js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script> 
+jQuery(function(){
+  var j = jQuery; //Just a variable for using jQuery without conflicts
+  var addInput = '#qty'; //This is the id of the input you are changing
+  var n = 1; //n is equal to 1
+  
+  //Set default value to n (n = 1)
+  j(addInput).val(n);
+
+  //On click add 1 to n
+  j('.plus').on('click', function(){
+    j(addInput).val(++n);
+  })
+
+  j('.min').on('click', function(){
+    //If n is bigger or equal to 1 subtract 1 from n
+    if (n >= 1) {
+      j(addInput).val(--n);
+    } else {
+      //Otherwise do nothing
+    }
+  });
+  
+  
+});
+</script>
+</body>
+</html>

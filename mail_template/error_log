@@ -1,0 +1,196 @@
+[08-Apr-2018 10:28:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/grocio/public_html/mail_template/order_invoice1.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/grocio/public_html/mail_template/order_invoice1.php on line 7
+[08-Apr-2018 10:28:23 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/grocio/public_html/mail_template/order_invoice1.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/grocio/public_html/mail_template/order_invoice1.php on line 7
+[08-Apr-2018 10:28:44 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/grocio/public_html/mail_template/order_invoice1.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/grocio/public_html/mail_template/order_invoice1.php on line 7
+[08-Apr-2018 10:29:15 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/grocio/public_html/mail_template/order_invoice1.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/grocio/public_html/mail_template/order_invoice1.php on line 7
+[08-Apr-2018 10:29:29 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/grocio/public_html/mail_template/order_invoice1.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/grocio/public_html/mail_template/order_invoice1.php on line 7
+[08-Apr-2018 10:29:30 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/grocio/public_html/mail_template/order_invoice1.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/grocio/public_html/mail_template/order_invoice1.php on line 7
+[08-Apr-2018 10:30:06 UTC] PHP Warning:  include(wfcart.php): failed to open stream: No such file or directory in /home/grocio/public_html/mail_template/order_invoice1.php on line 2
+[08-Apr-2018 10:30:06 UTC] PHP Warning:  include(wfcart.php): failed to open stream: No such file or directory in /home/grocio/public_html/mail_template/order_invoice1.php on line 2
+[08-Apr-2018 10:30:06 UTC] PHP Warning:  include(): Failed opening 'wfcart.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/grocio/public_html/mail_template/order_invoice1.php on line 2
+[08-Apr-2018 10:30:06 UTC] PHP Warning:  include(include/config.php): failed to open stream: No such file or directory in /home/grocio/public_html/mail_template/order_invoice1.php on line 3
+[08-Apr-2018 10:30:06 UTC] PHP Warning:  include(include/config.php): failed to open stream: No such file or directory in /home/grocio/public_html/mail_template/order_invoice1.php on line 3
+[08-Apr-2018 10:30:06 UTC] PHP Warning:  include(): Failed opening 'include/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/grocio/public_html/mail_template/order_invoice1.php on line 3
+[08-Apr-2018 10:30:06 UTC] PHP Warning:  include(include/functions.php): failed to open stream: No such file or directory in /home/grocio/public_html/mail_template/order_invoice1.php on line 4
+[08-Apr-2018 10:30:06 UTC] PHP Warning:  include(include/functions.php): failed to open stream: No such file or directory in /home/grocio/public_html/mail_template/order_invoice1.php on line 4
+[08-Apr-2018 10:30:06 UTC] PHP Warning:  include(): Failed opening 'include/functions.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/grocio/public_html/mail_template/order_invoice1.php on line 4
+[08-Apr-2018 10:30:06 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/grocio/public_html/mail_template/order_invoice1.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/grocio/public_html/mail_template/order_invoice1.php on line 10
+[08-Apr-2018 10:30:07 UTC] PHP Warning:  include(wfcart.php): failed to open stream: No such file or directory in /home/grocio/public_html/mail_template/order_invoice1.php on line 2
+[08-Apr-2018 10:30:07 UTC] PHP Warning:  include(wfcart.php): failed to open stream: No such file or directory in /home/grocio/public_html/mail_template/order_invoice1.php on line 2
+[08-Apr-2018 10:30:07 UTC] PHP Warning:  include(): Failed opening 'wfcart.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/grocio/public_html/mail_template/order_invoice1.php on line 2
+[08-Apr-2018 10:30:07 UTC] PHP Warning:  include(include/config.php): failed to open stream: No such file or directory in /home/grocio/public_html/mail_template/order_invoice1.php on line 3
+[08-Apr-2018 10:30:07 UTC] PHP Warning:  include(include/config.php): failed to open stream: No such file or directory in /home/grocio/public_html/mail_template/order_invoice1.php on line 3
+[08-Apr-2018 10:30:07 UTC] PHP Warning:  include(): Failed opening 'include/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/grocio/public_html/mail_template/order_invoice1.php on line 3
+[08-Apr-2018 10:30:07 UTC] PHP Warning:  include(include/functions.php): failed to open stream: No such file or directory in /home/grocio/public_html/mail_template/order_invoice1.php on line 4
+[08-Apr-2018 10:30:07 UTC] PHP Warning:  include(include/functions.php): failed to open stream: No such file or directory in /home/grocio/public_html/mail_template/order_invoice1.php on line 4
+[08-Apr-2018 10:30:07 UTC] PHP Warning:  include(): Failed opening 'include/functions.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/grocio/public_html/mail_template/order_invoice1.php on line 4
+[08-Apr-2018 10:30:07 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/grocio/public_html/mail_template/order_invoice1.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/grocio/public_html/mail_template/order_invoice1.php on line 10
+[08-Apr-2018 10:30:07 UTC] PHP Warning:  include(wfcart.php): failed to open stream: No such file or directory in /home/grocio/public_html/mail_template/order_invoice1.php on line 2
+[08-Apr-2018 10:30:07 UTC] PHP Warning:  include(wfcart.php): failed to open stream: No such file or directory in /home/grocio/public_html/mail_template/order_invoice1.php on line 2
+[08-Apr-2018 10:30:07 UTC] PHP Warning:  include(): Failed opening 'wfcart.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/grocio/public_html/mail_template/order_invoice1.php on line 2
+[08-Apr-2018 10:30:07 UTC] PHP Warning:  include(include/config.php): failed to open stream: No such file or directory in /home/grocio/public_html/mail_template/order_invoice1.php on line 3
+[08-Apr-2018 10:30:07 UTC] PHP Warning:  include(include/config.php): failed to open stream: No such file or directory in /home/grocio/public_html/mail_template/order_invoice1.php on line 3
+[08-Apr-2018 10:30:07 UTC] PHP Warning:  include(): Failed opening 'include/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/grocio/public_html/mail_template/order_invoice1.php on line 3
+[08-Apr-2018 10:30:07 UTC] PHP Warning:  include(include/functions.php): failed to open stream: No such file or directory in /home/grocio/public_html/mail_template/order_invoice1.php on line 4
+[08-Apr-2018 10:30:07 UTC] PHP Warning:  include(include/functions.php): failed to open stream: No such file or directory in /home/grocio/public_html/mail_template/order_invoice1.php on line 4
+[08-Apr-2018 10:30:07 UTC] PHP Warning:  include(): Failed opening 'include/functions.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/grocio/public_html/mail_template/order_invoice1.php on line 4
+[08-Apr-2018 10:30:07 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/grocio/public_html/mail_template/order_invoice1.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/grocio/public_html/mail_template/order_invoice1.php on line 10
+[08-Apr-2018 10:30:07 UTC] PHP Warning:  include(wfcart.php): failed to open stream: No such file or directory in /home/grocio/public_html/mail_template/order_invoice1.php on line 2
+[08-Apr-2018 10:30:07 UTC] PHP Warning:  include(wfcart.php): failed to open stream: No such file or directory in /home/grocio/public_html/mail_template/order_invoice1.php on line 2
+[08-Apr-2018 10:30:07 UTC] PHP Warning:  include(): Failed opening 'wfcart.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/grocio/public_html/mail_template/order_invoice1.php on line 2
+[08-Apr-2018 10:30:07 UTC] PHP Warning:  include(include/config.php): failed to open stream: No such file or directory in /home/grocio/public_html/mail_template/order_invoice1.php on line 3
+[08-Apr-2018 10:30:07 UTC] PHP Warning:  include(include/config.php): failed to open stream: No such file or directory in /home/grocio/public_html/mail_template/order_invoice1.php on line 3
+[08-Apr-2018 10:30:07 UTC] PHP Warning:  include(): Failed opening 'include/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/grocio/public_html/mail_template/order_invoice1.php on line 3
+[08-Apr-2018 10:30:07 UTC] PHP Warning:  include(include/functions.php): failed to open stream: No such file or directory in /home/grocio/public_html/mail_template/order_invoice1.php on line 4
+[08-Apr-2018 10:30:07 UTC] PHP Warning:  include(include/functions.php): failed to open stream: No such file or directory in /home/grocio/public_html/mail_template/order_invoice1.php on line 4
+[08-Apr-2018 10:30:07 UTC] PHP Warning:  include(): Failed opening 'include/functions.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/grocio/public_html/mail_template/order_invoice1.php on line 4
+[08-Apr-2018 10:30:07 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/grocio/public_html/mail_template/order_invoice1.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/grocio/public_html/mail_template/order_invoice1.php on line 10
+[08-Apr-2018 10:30:07 UTC] PHP Warning:  include(wfcart.php): failed to open stream: No such file or directory in /home/grocio/public_html/mail_template/order_invoice1.php on line 2
+[08-Apr-2018 10:30:07 UTC] PHP Warning:  include(wfcart.php): failed to open stream: No such file or directory in /home/grocio/public_html/mail_template/order_invoice1.php on line 2
+[08-Apr-2018 10:30:07 UTC] PHP Warning:  include(): Failed opening 'wfcart.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/grocio/public_html/mail_template/order_invoice1.php on line 2
+[08-Apr-2018 10:30:07 UTC] PHP Warning:  include(include/config.php): failed to open stream: No such file or directory in /home/grocio/public_html/mail_template/order_invoice1.php on line 3
+[08-Apr-2018 10:30:07 UTC] PHP Warning:  include(include/config.php): failed to open stream: No such file or directory in /home/grocio/public_html/mail_template/order_invoice1.php on line 3
+[08-Apr-2018 10:30:07 UTC] PHP Warning:  include(): Failed opening 'include/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/grocio/public_html/mail_template/order_invoice1.php on line 3
+[08-Apr-2018 10:30:07 UTC] PHP Warning:  include(include/functions.php): failed to open stream: No such file or directory in /home/grocio/public_html/mail_template/order_invoice1.php on line 4
+[08-Apr-2018 10:30:07 UTC] PHP Warning:  include(include/functions.php): failed to open stream: No such file or directory in /home/grocio/public_html/mail_template/order_invoice1.php on line 4
+[08-Apr-2018 10:30:07 UTC] PHP Warning:  include(): Failed opening 'include/functions.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/grocio/public_html/mail_template/order_invoice1.php on line 4
+[08-Apr-2018 10:30:07 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/grocio/public_html/mail_template/order_invoice1.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/grocio/public_html/mail_template/order_invoice1.php on line 10
+[08-Apr-2018 10:30:08 UTC] PHP Warning:  include(wfcart.php): failed to open stream: No such file or directory in /home/grocio/public_html/mail_template/order_invoice1.php on line 2
+[08-Apr-2018 10:30:08 UTC] PHP Warning:  include(wfcart.php): failed to open stream: No such file or directory in /home/grocio/public_html/mail_template/order_invoice1.php on line 2
+[08-Apr-2018 10:30:08 UTC] PHP Warning:  include(): Failed opening 'wfcart.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/grocio/public_html/mail_template/order_invoice1.php on line 2
+[08-Apr-2018 10:30:08 UTC] PHP Warning:  include(include/config.php): failed to open stream: No such file or directory in /home/grocio/public_html/mail_template/order_invoice1.php on line 3
+[08-Apr-2018 10:30:08 UTC] PHP Warning:  include(include/config.php): failed to open stream: No such file or directory in /home/grocio/public_html/mail_template/order_invoice1.php on line 3
+[08-Apr-2018 10:30:08 UTC] PHP Warning:  include(): Failed opening 'include/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/grocio/public_html/mail_template/order_invoice1.php on line 3
+[08-Apr-2018 10:30:08 UTC] PHP Warning:  include(include/functions.php): failed to open stream: No such file or directory in /home/grocio/public_html/mail_template/order_invoice1.php on line 4
+[08-Apr-2018 10:30:08 UTC] PHP Warning:  include(include/functions.php): failed to open stream: No such file or directory in /home/grocio/public_html/mail_template/order_invoice1.php on line 4
+[08-Apr-2018 10:30:08 UTC] PHP Warning:  include(): Failed opening 'include/functions.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/grocio/public_html/mail_template/order_invoice1.php on line 4
+[08-Apr-2018 10:30:08 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/grocio/public_html/mail_template/order_invoice1.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/grocio/public_html/mail_template/order_invoice1.php on line 10
+[08-Apr-2018 10:30:08 UTC] PHP Warning:  include(wfcart.php): failed to open stream: No such file or directory in /home/grocio/public_html/mail_template/order_invoice1.php on line 2
+[08-Apr-2018 10:30:08 UTC] PHP Warning:  include(wfcart.php): failed to open stream: No such file or directory in /home/grocio/public_html/mail_template/order_invoice1.php on line 2
+[08-Apr-2018 10:30:08 UTC] PHP Warning:  include(): Failed opening 'wfcart.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/grocio/public_html/mail_template/order_invoice1.php on line 2
+[08-Apr-2018 10:30:08 UTC] PHP Warning:  include(include/config.php): failed to open stream: No such file or directory in /home/grocio/public_html/mail_template/order_invoice1.php on line 3
+[08-Apr-2018 10:30:08 UTC] PHP Warning:  include(include/config.php): failed to open stream: No such file or directory in /home/grocio/public_html/mail_template/order_invoice1.php on line 3
+[08-Apr-2018 10:30:08 UTC] PHP Warning:  include(): Failed opening 'include/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/grocio/public_html/mail_template/order_invoice1.php on line 3
+[08-Apr-2018 10:30:08 UTC] PHP Warning:  include(include/functions.php): failed to open stream: No such file or directory in /home/grocio/public_html/mail_template/order_invoice1.php on line 4
+[08-Apr-2018 10:30:08 UTC] PHP Warning:  include(include/functions.php): failed to open stream: No such file or directory in /home/grocio/public_html/mail_template/order_invoice1.php on line 4
+[08-Apr-2018 10:30:08 UTC] PHP Warning:  include(): Failed opening 'include/functions.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/grocio/public_html/mail_template/order_invoice1.php on line 4
+[08-Apr-2018 10:30:08 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/grocio/public_html/mail_template/order_invoice1.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/grocio/public_html/mail_template/order_invoice1.php on line 10
+[08-Apr-2018 10:30:08 UTC] PHP Warning:  include(wfcart.php): failed to open stream: No such file or directory in /home/grocio/public_html/mail_template/order_invoice1.php on line 2
+[08-Apr-2018 10:30:08 UTC] PHP Warning:  include(wfcart.php): failed to open stream: No such file or directory in /home/grocio/public_html/mail_template/order_invoice1.php on line 2
+[08-Apr-2018 10:30:08 UTC] PHP Warning:  include(): Failed opening 'wfcart.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/grocio/public_html/mail_template/order_invoice1.php on line 2
+[08-Apr-2018 10:30:08 UTC] PHP Warning:  include(include/config.php): failed to open stream: No such file or directory in /home/grocio/public_html/mail_template/order_invoice1.php on line 3
+[08-Apr-2018 10:30:08 UTC] PHP Warning:  include(include/config.php): failed to open stream: No such file or directory in /home/grocio/public_html/mail_template/order_invoice1.php on line 3
+[08-Apr-2018 10:30:08 UTC] PHP Warning:  include(): Failed opening 'include/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/grocio/public_html/mail_template/order_invoice1.php on line 3
+[08-Apr-2018 10:30:08 UTC] PHP Warning:  include(include/functions.php): failed to open stream: No such file or directory in /home/grocio/public_html/mail_template/order_invoice1.php on line 4
+[08-Apr-2018 10:30:08 UTC] PHP Warning:  include(include/functions.php): failed to open stream: No such file or directory in /home/grocio/public_html/mail_template/order_invoice1.php on line 4
+[08-Apr-2018 10:30:08 UTC] PHP Warning:  include(): Failed opening 'include/functions.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/grocio/public_html/mail_template/order_invoice1.php on line 4
+[08-Apr-2018 10:30:08 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/grocio/public_html/mail_template/order_invoice1.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/grocio/public_html/mail_template/order_invoice1.php on line 10
+[27-May-2018 08:42:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/grocio/public_html/grocio_bck/mail_template/order_invoice.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/grocio/public_html/grocio_bck/mail_template/order_invoice.php on line 6
+[27-May-2018 08:42:36 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/grocio/public_html/grocio_bck/mail_template/order_invoice.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/grocio/public_html/grocio_bck/mail_template/order_invoice.php on line 6
+[27-May-2018 08:42:51 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/grocio/public_html/grocio_bck/mail_template/order_invoice.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/grocio/public_html/grocio_bck/mail_template/order_invoice.php on line 6
+[27-May-2018 08:43:18 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/grocio/public_html/grocio_bck/mail_template/order_invoice.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/grocio/public_html/grocio_bck/mail_template/order_invoice.php on line 6
+[27-May-2018 08:44:04 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/grocio/public_html/grocio_bck/mail_template/order_invoice.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/grocio/public_html/grocio_bck/mail_template/order_invoice.php on line 6
+[27-May-2018 08:44:38 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/grocio/public_html/grocio_bck/mail_template/order_invoice.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/grocio/public_html/grocio_bck/mail_template/order_invoice.php on line 6
+[10-Jun-2018 02:05:14 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/grocio/public_html/grocio_bck/mail_template/order_invoice.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/grocio/public_html/grocio_bck/mail_template/order_invoice.php on line 7
+[10-Jun-2018 02:05:19 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/grocio/public_html/grocio_bck/mail_template/order_invoice_bck.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/grocio/public_html/grocio_bck/mail_template/order_invoice_bck.php on line 6
+[10-Jun-2018 05:40:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/grocio/public_html/grocio_bck/mail_template/order_invoice.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/grocio/public_html/grocio_bck/mail_template/order_invoice.php on line 5
+[10-Jun-2018 05:40:49 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/grocio/public_html/grocio_bck/mail_template/order_invoice.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/grocio/public_html/grocio_bck/mail_template/order_invoice.php on line 5
+[10-Jun-2018 05:40:55 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/grocio/public_html/grocio_bck/mail_template/order_invoice.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/grocio/public_html/grocio_bck/mail_template/order_invoice.php on line 5
+[10-Jun-2018 05:40:57 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/grocio/public_html/grocio_bck/mail_template/order_invoice.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/grocio/public_html/grocio_bck/mail_template/order_invoice.php on line 5
+[10-Jun-2018 05:42:14 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/grocio/public_html/grocio_bck/mail_template/order_invoice.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/grocio/public_html/grocio_bck/mail_template/order_invoice.php on line 5
+[23-Sep-2018 10:22:50 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/grocio/public_html/mail_template/order_invoice.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/grocio/public_html/mail_template/order_invoice.php on line 6
+[23-Sep-2018 10:23:20 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/grocio/public_html/mail_template/order_invoice.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/grocio/public_html/mail_template/order_invoice.php on line 6
+[23-Sep-2018 11:08:53 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/grocio/public_html/mail_template/order_invoice.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/grocio/public_html/mail_template/order_invoice.php on line 6
+[23-Sep-2018 11:23:04 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/grocio/public_html/mail_template/order_invoice.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/grocio/public_html/mail_template/order_invoice.php on line 6

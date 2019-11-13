@@ -1,0 +1,21 @@
+RewriteEngine on
+
+RewriteRule ^index index.php
+RewriteRule ^news/(.*)$ news-details.php?slug=$1
+RewriteRule ^product-list/(.*)$ product-list1.php
+
+RewriteRule ^details/(.*)$ products-details.php?slug=$1
+
+RewriteRule ^privacy-policy privacy-policy.php
+RewriteRule ^aboutus aboutus.php
+RewriteRule ^temrs-conditions temrs-conditions.php
+RewriteRule ^order-return order-return.php
+RewriteRule ^delivery-information delivery-information.php
+RewriteRule ^payment-related-services payment-related-services.php
+RewriteRule ^career career.php
+RewriteRule ^faq faq.php
+
+
+
+
+
